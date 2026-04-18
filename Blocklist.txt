@@ -1,0 +1,30 @@
+# CaptainQwerty's AdGuard Home Blocklist
+# ===============================================
+#
+# Description: Curated blocklist of domains that should be blocked through AdGuard Home DNS filtering
+# Purpose: Prevents access to unwanted services, trackers, and potentially harmful websites
+# Last Updated: April 18, 2026
+# Repository: https://github.com/captainqwerty/CaptainQwertysAdGuardLists
+#
+# Usage:
+# - Import this file into your AdGuard Home instance under Settings > DNS Settings > DNS blocklist
+# - Domains marked with ^$important have highest priority and cannot be overridden by allowlists
+# - Regular domains (without ^$important) can still be allowed by other rules if needed
+#
+# Organisation:
+# - Domains are grouped by category for easier maintenance
+# - Each section includes related services and their subdomains
+# - Comments explain the purpose of each domain group
+#
+# Maintenance:
+# - Remove duplicates and test changes before committing
+# - Add new domains with appropriate categorisation
+# - Update Last Updated date when making changes
+
+## Android TV & Streaming Restrictions
+# Specific Android TV Blocks
+||androidtvwatsonfe-pa.googleapis.com^$important
+||androidtvchannels-pa.googleapis.com^$important
+||androidtvwatson-pa.googleapis.com^$important
+||androidtvprospectus-pa.googleapis.com^$important
+||androidtvbanner-pa.googleapis.com^$important

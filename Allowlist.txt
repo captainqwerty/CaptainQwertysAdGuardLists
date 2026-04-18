@@ -1,0 +1,305 @@
+# CaptainQwerty's AdGuard Home Allowlist
+# ===============================================
+#
+# Description: Curated allowlist of domains that should be allowed through AdGuard Home DNS filtering
+# Purpose: Prevents blocking of essential services, streaming platforms, and legitimate websites
+# Last Updated: April 18, 2026
+# Repository: https://github.com/captainqwerty/CaptainQwertysAdGuardLists
+#
+# Usage:
+# - Import this file into your AdGuard Home instance under Settings > DNS Settings > DNS allowlist
+# - Domains marked with ^$important have highest priority and cannot be overridden by blocklists
+# - Regular domains (without ^$important) can still be blocked by other rules if needed
+#
+# Organisation:
+# - Domains are grouped by category for easier maintenance
+# - Each section includes related services and their subdomains
+# - Comments explain the purpose of each domain group
+#
+# Maintenance:
+# - Remove duplicates and test changes before committing
+# - Add new domains with appropriate categorisation
+# - Update Last Updated date when making changes
+
+## Infrastructure & Security
+# Adguard DNS
+@@||dns.adguard.com^$important
+@@||dns-family.adguard.com^$important
+
+# Let's Encrypt
+@@||letsencrypt.org^$important
+
+# Microsoft Smartscreen
+@@||nav-edge.smartscreen.microsoft.com^
+
+## Streaming & Video
+# YouTube & Google Video
+@@||s.youtube.com^$important
+@@||s2.youtube.com^$important
+@@||youtu.be^$important
+@@||youtube-nocookie.com^$important
+@@||i.ytimg.com^$important
+@@||i1.ytimg.com^$important
+@@||s.ytimg.com^$important
+@@||manifest.googlevideo.com^$important
+@@||redirector.googlevideo.com^$important
+@@||yt3.ggpht.com^$important
+
+# Disney+
+@@||cdn.registerdisney.go.com^$important
+@@||dssott.com^$important
+@@||disneyplus.com^$important
+@@||disney-plus.net^$important
+@@||cws.conviva.com^$important
+@@||disneyplus.bn5x.net^$important
+@@||disney-portal.my.onetrust.com^$important
+@@||bamgrid.com^$important
+@@||disneyplus.com.ssl.sc.omtrdc.net^$important
+@@||cws-sjc2.conviva.com^$important
+@@||cws-iad1.conviva.com^$important
+@@||vod-l3c-eu-north-2.media.dssott.com.c.footprint.net^$important
+@@||disney.demdex.net^$important
+
+# Netflix
+@@||api-global.netflix.com^$important
+@@||ichnaea.netflix.com^$important
+@@||appboot.netflix.com^$important
+@@||secure.netflix.com^$important
+
+# Plex & Media Databases
+@@||plex.tv^$important
+@@||plex.direct^$important
+@@||my.plexapp.com^$important
+@@||plexapp.com^$important
+@@||plexservices.com^$important
+@@||plex.media^$important
+@@||themoviedb.com^$important
+@@||themoviedb.org^$important
+@@||thetvdb.com^$important
+@@||tvdb.com^$important
+@@||fanart.tv^$important
+
+# Now TV / Sky
+@@||pixel.disco.nowtv.com^
+@@||mobile-data.onetrust.io^
+
+## Social Media & Communication
+# Instagram
+@@||cdninstagram.com^$important
+@@||instagram.com^$important
+@@||instagram.c10r.facebook.com^$important
+
+# WhatsApp
+@@||whatsapp.net^$important
+@@||whatsapp.com^$important
+@@||region1.app-measurement.com^$important
+
+# Twitter
+@@||twimg.com^$important
+@@||twitter.com^$important
+@@||t.co^$important
+
+# Reddit
+@@||reddit.com^$important
+
+# Facebook
+@@||graph.facebook.com^$important
+@@||a1.api.bbc.co.uk^$important
+@@||mybbc-analytics.files.bbci.co.uk^$important
+
+## Google & Cloud Services
+# Google Core
+@@||0.client-channel.google.com^$important
+@@||2.android.pool.ntp.org^$important
+@@||android.clients.google.com^$important
+@@||clients1.google.com^$important
+@@||clients2.google.com^$important
+@@||clients3.google.com^$important
+@@||clients4.google.com^$important
+@@||clients5.google.com^$important
+@@||clients6.google.com^$important
+@@||cse.google.com^$important
+@@||gstatic.com^$important
+@@||video-stats.l.google.com^$important
+@@||geo3.ggpht.com^$important
+
+# Google APIs (Modified to allow sub-blocking)
+@@||googleapis.com^$important,domain=~androidtvwatsonfe-pa.googleapis.com|~androidtvchannels-pa.googleapis.com|~androidtvwatson-pa.googleapis.com|~androidtvprospectus-pa.googleapis.com|~androidtvbanner-pa.googleapis.com
+
+## Development & CDN
+# GitHub
+@@||github.com^$important
+@@||github.io^$important
+@@||raw.githubusercontent.com^$important
+
+# Cloudflare
+@@||cdn.cloudflare.net^$important
+@@||cdnjs.cloudflare.com^$important
+@@||cloudfront.net^$important
+
+# Other CDN/Libraries
+@@||cdn.jsdelivr.net^
+@@||automateit.lol^$important
+
+## Microsoft & Office
+# Office & Microsoft Online
+@@||office.com^$important
+@@||office.net^$important
+@@||office365.com^$important
+@@||officeclient.microsoft.com^$important
+@@||microsoftonline.com^$important
+@@||sharepoint.com^$important
+@@||1drv.com^$important
+@@||aspnetcdn.com^$important
+@@||c.microsoft.com^$important
+@@||vlscppe.microsoft.com^$important
+@@||live.com^$important
+@@||nexusrules.officeapps.live.com^$important
+
+# Windows & Updates
+@@||ctldl.windowsupdate.com^$important
+@@||msftncsi.com^$important
+@@||win10.ipv6.microsoft.com^$important
+
+# Skype
+@@||ui.skype.com^$important
+@@||pricelist.skype.com^$important
+@@||apps.skype.com^$important
+
+# Xbox Live
+@@||xbox.ipv6.microsoft.com^$important
+@@||xboxexperiencesprod.experimentation.xboxlive.com^$important
+@@||xflight.xboxlive.com^$important
+@@||xkms.xboxlive.com^$important
+@@||xsts.auth.xboxlive.com^$important
+@@||title.auth.xboxlive.com^$important
+@@||title.mgt.xboxlive.com^$important
+@@||notify.xboxlive.com^$important
+@@||licensing.xboxlive.com^$important
+@@||device.auth.xboxlive.com^$important
+@@||attestation.xboxlive.com^$important
+@@||cert.mgt.xboxlive.com^$important
+@@||eds.xboxlive.com^$important
+@@||help.ui.xboxlive.com^$important
+@@||def-vef.xboxlive.com^$important
+
+# Other Microsoft Services
+@@||c.s-microsoft.com^$important
+@@||i.s-microsoft.com^$important
+@@||clientconfig.passport.net^$important
+@@||displaycatalog.mp.microsoft.com^$important
+@@||dl.delivery.mp.microsoft.com^$important
+@@||mobile.events.data.microsoft.com^
+
+## Storage & Backup
+# Amazon Prime Video & AWS
+@@||eu.api.amazonvideo.com^$important
+@@||device-metrics-us.amazon.com^$important
+@@||device-metrics-us-2.amazon.com^$important
+@@||fls-eu.amazon.com^$important
+@@||fls-na.amazon.com^$important
+@@||images-amazon.com^$important
+@@||amazonaws.com^$important
+
+# Kindle
+@@||kindle.com
+@@||kindle.amazon.com
+@@||kdp.amazon.com
+@@||m.kindle.com
+
+# Dropbox
+@@||dl.dropbox.com^$important
+@@||dl.dropboxusercontent.com^$important
+@@||ns1.dropbox.com^$important
+@@||ns2.dropbox.com^$important
+
+## Entertainment & Media
+# General Information
+@@||wikipedia.org^$important
+
+# TED Talks
+@@||hls.ted.com^$important
+@@||app-api.ted.com^$important
+@@||tedcdn.com^$important
+
+# Giphy & Gravatar
+@@||giphy.com^$important
+@@||gravatar.com^$important
+
+## Consumer Services
+# Apple & iTunes
+@@||gdmf.apple.com.akadns.net^$important
+@@||itunes.com^$important
+@@||mzstatic.com^$important
+@@||iphone-ld.origin-apple.com.akadns.net^$important
+@@||ax.phobos.apple.com.edgesuite.net^$important
+@@||init-p01md-lb.push-apple.com.akadns.net^$important
+@@||uts-api-cdn.itunes-apple.com.akadns.net^$important
+@@||np-edge-cdn.itunes-apple.com.akadns.net^$important
+@@||iadsdk.apple.com.akadns.net^$important
+@@||play.itunes.apple.com.edgesuite.net^$important
+
+# Other Services
+@@||portal.dental^$important
+@@||monzo.com^
+@@||no-ip.com^$important
+@@||tinyurl.com^$important
+@@||samsung.cn^
+@@||wordpress.com^$important
+@@||wp.com^$important
+@@||login.aliexpress.com^$important
+
+## Gaming & Entertainment Platforms
+# Pokémon Go
+@@||nianticlabs.com^
+@@||pokemon.com^
+
+# CD Projekt Red / GOG
+@@||cdprojekt.red^
+
+# Game Server Hosting
+@@||playit.plus^$important
+
+# Hot UK Deals & Shopping
+@@||halo121.com^$important
+@@||hotukdeals.digidip.net^$important
+
+## Utilities & Miscellaneous
+# Proton (Email & VPN)
+@@||protonvpn.com^
+@@||protonmail.com^
+@@||protonvpn.net^
+@@||proton.me^
+
+# Tailscale
+@@||tailscale.com^
+
+# Ente Photos
+@@||privacypack.org^$important
+
+# Streaming Clips
+@@||stream.new^$important
+
+# DFS Delivery Tracking
+@@||cdn.exp.sofology.co.uk^
+
+# AutoAlex Merch Shop
+@@||iconbox.shop^
+
+# Screwfix
+@@||mobile-production.content-square.net^$important
+
+# Currys
+@@||media.currys.biz^
+
+# Octopus Energy
+@@||sst.octopus.energy^
+
+# Sonos
+@@||msmetrics.ws.sonos.com^$important
+
+# Samsung
+@@||cdn.samsungcloudsolution.com^$important
+
+# Malwarebytes
+@@||keystone.mwbsys.com^$important
