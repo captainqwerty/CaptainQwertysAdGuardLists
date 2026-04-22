@@ -303,3 +303,6 @@
 
 # Malwarebytes
 @@||keystone.mwbsys.com^$important
+
+# Misc Businesses
+@@||calisa.co.uk^$important
