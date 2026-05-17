@@ -44,6 +44,7 @@
 @@||manifest.googlevideo.com^$important
 @@||redirector.googlevideo.com^$important
 @@||yt3.ggpht.com^$important
+@@||navidrome.org^$important
 
 # Disney+
 @@||cdn.registerdisney.go.com^$important
