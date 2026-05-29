@@ -273,6 +273,7 @@
 @@||proton.me^
 @@||mullvad.net^$important
 @@||community-scripts.org^$important
+@@||netbird.io^$important
 
 # Tailscale
 @@||tailscale.com^
