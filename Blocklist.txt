@@ -28,3 +28,15 @@
 ||androidtvwatson-pa.googleapis.com^$important
 ||androidtvprospectus-pa.googleapis.com^$important
 ||androidtvbanner-pa.googleapis.com^$important
+
+## Yandex Blocking
+# Yandex services and CDN
+||yandex.ru^$important
+||yandex.com^$important
+||yandex.net^$important
+||yandexcloud.net^$important
+||storage.yandexcloud.net^$important
+
+# Yandex Metrica (analytics SDK embedded in third-party apps)
+||mc.yandex.ru^$important
+||mc.yandex.com^$important
