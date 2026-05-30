@@ -308,6 +308,9 @@
 # Malwarebytes
 @@||keystone.mwbsys.com^$important
 
+# Unifi
+@@||ping.ui.com^$important
+
 ## Government
 # HMRC
 @@||odx.hmrc.gov.uk^$important
