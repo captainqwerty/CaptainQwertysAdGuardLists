@@ -250,6 +250,16 @@
 @@||wp.com^$important
 @@||login.aliexpress.com^$important
 
+# TB
+@@||tb-cdn.cx^$important
+@@||tb-cdn.io^$important
+@@||tb-cdn.pw^$important
+@@||tb-cdn.sh^$important
+@@||tb-cdn.st^$important
+@@||tb-cdn.to^$important
+@@||tb-cdn.earth^$important
+@@||torbox.app^$important
+
 ## Gaming & Entertainment Platforms
 # Pokémon Go
 @@||nianticlabs.com^
