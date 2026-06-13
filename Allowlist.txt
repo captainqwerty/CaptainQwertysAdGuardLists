@@ -274,6 +274,9 @@
 # Game Server Hosting
 @@||playit.plus^$important
 
+# Moza
+@@||gudsen.vip^$important
+
 # Hot UK Deals & Shopping
 @@||halo121.com^$important
 @@||hotukdeals.digidip.net^$important
