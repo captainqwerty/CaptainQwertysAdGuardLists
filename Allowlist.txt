@@ -245,13 +245,16 @@
 
 # Other Services
 @@||portal.dental^$important
-@@||monzo.com^
+@@||monzo.com^$important
 @@||no-ip.com^$important
 @@||tinyurl.com^$important
-@@||samsung.cn^
+@@||samsung.cn^$important
 @@||wordpress.com^$important
 @@||wp.com^$important
 @@||login.aliexpress.com^$important
+
+# Delivery Services
+@@||dhlecommerce.co.uk^$important
 
 # TB
 @@||tb-cdn.cx^$important
