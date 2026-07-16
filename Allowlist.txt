@@ -293,6 +293,7 @@
 @@||mullvad.net^$important
 @@||community-scripts.org^$important
 @@||netbird.io^$important
+@@||nordvpn.com^$important
 
 # Tailscale
 @@||tailscale.com^
