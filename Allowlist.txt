@@ -290,13 +290,16 @@
 @@||protonmail.com^
 @@||protonvpn.net^
 @@||proton.me^
-@@||mullvad.net^$important
-@@||community-scripts.org^$important
+
+# VPN and Mesh Networks
 @@||netbird.io^$important
 @@||nordvpn.com^$important
+@@||mullvad.net^$important
+@@||community-scripts.org^$important
+@@||tailscale.com^$important
 
-# Tailscale
-@@||tailscale.com^
+# IP Info
+ipinfo.io
 
 # Ente Photos
 @@||privacypack.org^$important
