@@ -268,11 +268,11 @@
 
 ## Gaming & Entertainment Platforms
 # Pokémon Go
-@@||nianticlabs.com^
-@@||pokemon.com^
+@@||nianticlabs.com^$important
+@@||pokemon.com^$important
 
 # CD Projekt Red / GOG
-@@||cdprojekt.red^
+@@||cdprojekt.red^$important
 
 # Game Server Hosting
 @@||playit.plus^$important
@@ -286,10 +286,11 @@
 
 ## Utilities & Miscellaneous
 # Proton (Email & VPN)
-@@||protonvpn.com^
-@@||protonmail.com^
-@@||protonvpn.net^
-@@||proton.me^
+@@||protonvpn.com^$important
+@@||protonmail.com^$important
+@@||protonvpn.net^$important
+@@||proton.me^$important
+@@||protonweb.com^$important
 
 # VPN and Mesh Networks
 @@||netbird.io^$important
