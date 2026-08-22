@@ -220,6 +220,7 @@
 ## Entertainment & Media
 # General Information
 @@||wikipedia.org^$important
+@@||selfh.st^$important
 
 # TED Talks
 @@||hls.ted.com^$important
