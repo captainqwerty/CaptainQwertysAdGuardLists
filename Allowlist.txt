@@ -299,6 +299,7 @@
 @@||mullvad.net^$important
 @@||community-scripts.org^$important
 @@||tailscale.com^$important
+@@||quad9.net^$important
 
 # IP Info
 ipinfo.io
