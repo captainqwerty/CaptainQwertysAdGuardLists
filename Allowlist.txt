@@ -292,6 +292,7 @@
 @@||protonvpn.net^$important
 @@||proton.me^$important
 @@||protonweb.com^$important
+@@||protondownload.com^$important
 
 # VPN and Mesh Networks
 @@||netbird.io^$important
