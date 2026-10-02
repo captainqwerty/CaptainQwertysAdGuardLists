@@ -272,6 +272,9 @@
 @@||nianticlabs.com^$important
 @@||pokemon.com^$important
 
+#Trackergg
+@@||thetrackernetwork.com^$important
+
 # CD Projekt Red / GOG
 @@||cdprojekt.red^$important
 
